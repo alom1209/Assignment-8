@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/pBkD0QVK/demo-app-1.webp",
+    "title": "TaskMaster",
+    "companyName": "AppCorp",
+    "description": "TaskMaster is a comprehensive productivity app designed to help users organize, prioritize, and complete tasks efficiently. It provides customizable task lists, reminders, deadlines, and progress tracking. Users can collaborate on shared projects, integrate calendars, and receive real-time notifications. With an intuitive interface, analytics on performance, and focus-enhancing features, TaskMaster ensures you never miss an important task. Whether for personal or professional use, it empowers individuals and teams to manage time effectively, improve productivity, and achieve goals consistently through a combination of planning tools, notifications, and clear task visualization.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": "50k",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/pBkD0QVK/demo-app-1.webp",
+    "title": "FitTrack",
+    "companyName": "HealthSoft",
+    "description": "FitTrack is an innovative fitness tracking app helping users monitor workouts, nutrition, and health goals. It offers detailed insights into calories burned, heart rate, distance, and exercise performance. Users can set personalized fitness targets, join daily challenges, and track progress over time. The app encourages consistency through reminders, motivational messages, and analytics to measure improvement. Its community features allow sharing achievements with friends and joining group workouts. FitTrack is designed to support a healthy lifestyle by combining structured tracking, guidance, and social motivation, helping users achieve fitness results in a fun and engaging way.",
+    "size": 60,
+    "reviews": 950,
+    "ratingAvg": 4.2,
+    "downloads": "35k",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 435 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/pBkD0QVK/demo-app-1.webp",
+    "title": "Foodie",
+    "companyName": "YumApps",
+    "description": "Foodie is a dynamic app for discovering restaurants, cafes, and eateries nearby. It provides detailed menus, reviews, ratings, and recommendations tailored to user preferences. Users can place orders for delivery, reserve tables, and explore trending dishes. Foodie also supports multiple payment options and offers personalized suggestions based on previous activity. With interactive maps, curated lists, and exclusive promotions, the app enhances dining experiences. Foodie is designed for food enthusiasts seeking convenience, variety, and new culinary adventures. Its interface is user-friendly, ensuring seamless navigation and a delightful experience from discovery to ordering and sharing meals.",
+    "size": 75,
+    "reviews": 1800,
+    "ratingAvg": 4.6,
+    "downloads": "80k",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1020 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/pBkD0QVK/demo-app-1.webp",
+    "title": "TravelMate",
+    "companyName": "GlobeTrotters",
+    "description": "TravelMate is a smart app for planning trips, booking hotels, and exploring destinations worldwide. Users can search for accommodations, compare prices, and read detailed reviews. The app provides curated itineraries, travel tips, and recommendations based on preferences. TravelMate also includes maps, offline guides, and local insights to enhance travel experiences. Users can manage bookings, receive reminders, and track schedules easily. The app is ideal for frequent travelers seeking convenience, efficiency, and personalized travel assistance. It combines planning tools, recommendations, and real-time updates to make trips smoother, enjoyable, and stress-free from start to finish.",
+    "size": 90,
+    "reviews": 670,
+    "ratingAvg": 4.1,
+    "downloads": "25k",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/pBkD0QVK/demo-app-1.webp",
+    "title": "PhotoSnap",
+    "companyName": "PixelSoft",
+    "description": "PhotoSnap is a creative photo editing and sharing app designed for all skill levels. Users can apply filters, adjust lighting, add stickers, and enhance images with professional editing tools. It supports sharing images directly to social media or saving locally. PhotoSnap also provides tutorials, templates, and creative effects to inspire users. With cloud backup, collaborative albums, and seamless navigation, users can organize and access photos easily. The app is ideal for photographers, influencers, and casual users who want to enhance visual content, create memorable moments, and share high-quality images in a fun, intuitive way.",
+    "size": 55,
+    "reviews": 2400,
+    "ratingAvg": 4.7,
+    "downloads": "90k",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1550 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/pBkD0QVK/demo-app-1.webp",
+    "title": "Mindful",
+    "companyName": "Wellness Co",
+    "description": "Mindful is a meditation and mindfulness app helping users reduce stress, increase focus, and improve overall wellbeing. It offers guided meditations, breathing exercises, and daily mindfulness challenges. Users can track progress, set reminders, and access soothing sounds or ambient music for relaxation. Mindful encourages a consistent practice through structured programs and insights into habits. The app also includes sleep aids, mood tracking, and community support. Designed for beginners and experienced meditators alike, Mindful provides practical tools to cultivate calmness, focus, and mental clarity, helping users lead healthier and more balanced lives daily.",
+    "size": 40,
+    "reviews": 1200,
+    "ratingAvg": 4.4,
+    "downloads": "60k",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 540 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/pBkD0QVK/demo-app-1.webp",
+    "title": "FinanceTracker",
+    "companyName": "MoneySoft",
+    "description": "FinanceTracker is an intuitive app to manage personal finances, monitor spending, and create budgets. Users can link bank accounts, categorize expenses, and track income and savings. The app provides reports, charts, and insights to improve financial decisions. Alerts and reminders ensure bills are paid on time. FinanceTracker also includes goal-setting features for savings, investments, and debt management. It is ideal for users seeking to improve financial literacy, gain control over expenses, and plan for future needs. With security features and real-time updates, the app ensures safe and efficient financial management for everyone.",
+    "size": 50,
+    "reviews": 800,
+    "ratingAvg": 4.0,
+    "downloads": "30k",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 260 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/pBkD0QVK/demo-app-1.webp",
+    "title": "LanguageLab",
+    "companyName": "EduTech",
+    "description": "LanguageLab is a comprehensive language learning app offering interactive lessons for multiple languages. Users can practice speaking, listening, reading, and writing through games, quizzes, and real-life conversation exercises. The app tracks progress, adapts difficulty, and provides personalized feedback. Users can join challenges, practice with peers, and access cultural insights. LanguageLab encourages consistent practice with reminders and rewards. Ideal for beginners and advanced learners, it makes language acquisition fun and effective. The app’s intuitive design, combined with detailed analytics and immersive lessons, helps users build fluency, confidence, and a deeper understanding of languages efficiently.",
+    "size": 70,
+    "reviews": 1500,
+    "ratingAvg": 4.5,
+    "downloads": "70k",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/pBkD0QVK/demo-app-1.webp",
+    "title": "NewsFlash",
+    "companyName": "InfoWorld",
+    "description": "NewsFlash is a real-time news app delivering global and local news instantly. Users can personalize topics, follow categories, and get breaking alerts. The app provides summaries, full articles, and multimedia content such as videos and images. NewsFlash includes offline reading, sharing options, and bookmarks for convenience. Its intelligent algorithm recommends articles based on user interests and engagement. Designed for readers seeking accuracy, speed, and diversity, it covers politics, technology, entertainment, sports, and more. The app enables staying informed, connecting with trending events, and accessing trustworthy news from multiple sources in one organized platform.",
+    "size": 35,
+    "reviews": 1100,
+    "ratingAvg": 4.3,
+    "downloads": "55k",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 455 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/pBkD0QVK/demo-app-1.webp",
+    "title": "WeatherNow",
+    "companyName": "ClimateSoft",
+    "description": "WeatherNow is an advanced weather application providing accurate forecasts, live updates, and detailed weather maps. Users can view hourly, daily, and weekly forecasts, track storms, and receive severe weather alerts. The app includes temperature, precipitation, wind, and humidity information with intuitive visuals. Personalized notifications and location-based data ensure users stay informed wherever they are. WeatherNow is ideal for travelers, outdoor enthusiasts, and everyday users who need reliable weather information. Its sleek interface, interactive maps, and real-time updates combine to provide an accurate, engaging, and practical weather monitoring experience.",
+    "size": 30,
+    "reviews": 900,
+    "ratingAvg": 4.1,
+    "downloads": "40k",
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 395 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/pBkD0QVK/demo-app-1.webp",
+    "title": "MusicFlow",
+    "companyName": "SoundTech",
+    "description": "MusicFlow is a versatile music streaming app offering access to millions of songs, albums, and playlists. Users can create custom playlists, discover new music, and follow favorite artists. The app provides high-quality audio, offline downloads, and personalized recommendations based on listening habits. MusicFlow includes social features, allowing sharing of favorite tracks and playlists with friends. Its user-friendly interface, cross-device synchronization, and curated content make music discovery enjoyable and engaging. Designed for casual listeners and audiophiles alike, MusicFlow ensures a seamless listening experience, delivering entertainment, inspiration, and a connection to music worldwide anytime, anywhere.",
+    "size": 80,
+    "reviews": 2100,
+    "ratingAvg": 4.6,
+    "downloads": "85k",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1130 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/pBkD0QVK/demo-app-1.webp",
+    "title": "ShopEasy",
+    "companyName": "EcomApps",
+    "description": "ShopEasy is an e-commerce app offering a wide variety of products across categories. Users can browse items, compare prices, read reviews, and make secure purchases. The app includes personalized recommendations, discounts, and exclusive deals. Users can track orders, manage carts, and save favorites for future purchases. ShopEasy ensures a smooth shopping experience with multiple payment options and reliable customer support. Designed for convenience and efficiency, it provides an organized platform for online shopping, helping users save time, discover new products, and enjoy a seamless, engaging, and secure shopping journey.",
+    "size": 95,
+    "reviews": 1700,
+    "ratingAvg": 4.4,
+    "downloads":"75k",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 860 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co.com/pBkD0QVK/demo-app-1.webp",
+    "title": "HealthPal",
+    "companyName": "WellTech",
+    "description": "HealthPal is a personal health monitoring app designed to track habits, wellness goals, and vital signs. Users can log activities, track sleep, nutrition, and exercise routines. The app provides reminders, health tips, and progress analytics to encourage healthier choices. HealthPal supports integration with wearable devices, offering real-time updates and insights. Community challenges, goal tracking, and personalized recommendations motivate users to maintain a balanced lifestyle. Ideal for anyone seeking to monitor well-being, reduce stress, and improve fitness, HealthPal provides practical tools, motivation, and detailed insights to enhance physical and mental health consistently over time.",
+    "size": 65,
+    "reviews": 950,
+    "ratingAvg": 4.3,
+    "downloads": "42k",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 360 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co.com/pBkD0QVK/demo-app-1.webp",
+    "title": "LearnCode",
+    "companyName": "DevApps",
+    "description": "LearnCode is an interactive coding platform for beginners and experienced developers. Users can access tutorials, exercises, and projects in multiple programming languages. The app provides quizzes, challenges, and real-time code execution for hands-on learning. Progress tracking, personalized paths, and hints help users improve skills efficiently. LearnCode also offers a community for discussion, collaboration, and code sharing. With structured lessons, engaging exercises, and performance analytics, the app makes learning to code practical, fun, and effective. It empowers users to gain technical knowledge, build projects, and advance in software development confidently.",
+    "size": 55,
+    "reviews": 1400,
+    "ratingAvg": 4.5,
+    "downloads": "68k",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 655 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co.com/pBkD0QVK/demo-app-1.webp",
+    "title": "DailyPlanner",
+    "companyName": "PlanIt",
+    "description": "DailyPlanner is an all-in-one app for organizing schedules, setting reminders, and managing tasks efficiently. Users can create daily, weekly, or monthly plans, prioritize activities, and receive notifications to stay on track. The app allows synchronization across devices, collaboration with colleagues or family, and tracking of completed tasks. With analytics, habit tracking, and goal setting, DailyPlanner helps users optimize productivity and time management. Its intuitive interface, customizable layouts, and integration with calendars make planning seamless. Ideal for professionals, students, and anyone seeking structure, DailyPlanner ensures better organization and consistent achievement of personal and professional goals.",
+    "size": 48,
+    "reviews": 1100,
+    "ratingAvg": 4.4,
+    "downloads": "52k",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 500 }
+    ]
+  }
+]
