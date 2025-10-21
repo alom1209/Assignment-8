@@ -1,12 +1,20 @@
 import React from 'react';
 import useApps from '../hooks/useApps';
 import Apps from './Appscard';
-import { Link } from 'react-router';
+import { Link, useOutletContext } from 'react-router';
 import Appscard from './Appscard';
 
 const Home = () => {
   const [apps,loading,error]=useApps();
   const trendingApps=apps.slice(0,8)
+  const {setLoading}=useOutletContext();
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center h-[60vh]">
+        <span className="loading loading-infinity loading-xl text-[#632EE3]"></span>
+      </div>
+    );
+  }
     return (
         <>
         <div className="hero bg-base-200 ">
@@ -83,7 +91,7 @@ const Home = () => {
 </div>
 
 <div className='py-6 text-center'>
-  <Link to='/apps'  className='btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white'>
+  <Link to='/apps' onClick={()=>setLoading(true)} className='btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white'>
     Show All
    </Link>
 </div>

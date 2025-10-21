@@ -10,7 +10,7 @@ const useApps=()=>{
 
    useEffect(()=>{
     setLoading(true);
-    axios('App-details.json').then(data=>setApps(data.data)).catch(err=>setError(err)).finally(()=>setLoading(false))
+    axios('../App-details.json').then(data=>setApps(data.data)).catch(err=>setError(err)).finally(()=>setLoading(false))
    },[])
 
     return [apps,loading,error]

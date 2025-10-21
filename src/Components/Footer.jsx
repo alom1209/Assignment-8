@@ -5,7 +5,7 @@ const Footer = () => {
       <>
        <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
   <aside className='flex items-center gap-3'>
-    <img src="src/assets/All images/logo.png" alt="" className='h-15'/>
+    <img src="https://i.ibb.co.com/9mZFBrvR/logo.png" alt="" className='h-15'/>
     <p className='font-bold'>
      HERO.IO
       
@@ -50,8 +50,8 @@ const Footer = () => {
     </div>
   </nav>
   <div className='text-center'>
-<p >Copyright © 2025 - All right reserved</p>
-</div>
+    <p>Copyright © 2025 - All right reserved by <span className='font-bold'>HERO.IO</span></p>
+  </div>
 </footer>
 
       </>

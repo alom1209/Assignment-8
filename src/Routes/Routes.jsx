@@ -28,6 +28,7 @@ const router = createBrowserRouter([
       {
         path:'/appdetails/:id',
           Component:Appdetails,
+          errorElement:<Apppageerror></Apppageerror>,
       },
       {
         path:'/installed apps',
@@ -37,6 +38,7 @@ const router = createBrowserRouter([
         path:'/appnotfound',
         Component:Apppageerror,
       }
+      
     ]
   },
 ]);

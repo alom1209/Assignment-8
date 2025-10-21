@@ -1,7 +1,8 @@
-import React from 'react';
+import { CloudDownload, House, LayoutGrid } from 'lucide-react';
+import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router';
 
-const Navbar = () => {
+const Navbar = ({setLoading}) => {
     return (
        <div className="navbar bg-base-100 shadow-sm">
   <div className="navbar-start">
@@ -12,45 +13,45 @@ const Navbar = () => {
       <ul
         tabIndex="-1"
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <NavLink to='/' className={({ isActive }) =>
+        <NavLink to='/' onClick={()=>setLoading(true)} className={({ isActive }) =>
           isActive
-            ? "text-blue-600 border-b-2 border-blue-600 pb-1 mr-2 font-medium"
-            : "text-gray-700 hover:text-blue-500 transition mr-2 font-medium"
-        }>Home</NavLink>
-      <NavLink to='/apps' className={({ isActive }) =>
+            ? "text-blue-600 border-b-2 border-blue-600 pb-1 mr-3 font-medium"
+            : "text-gray-700 hover:text-blue-500 transition mr-3 font-medium"
+        }><div className='flex items-center'> <House className="w-4 h-4 mr-1" /> Home</div> </NavLink>
+      <NavLink to='/apps' onClick={()=>setLoading(true)} className={({ isActive }) =>
           isActive
-            ? "text-blue-600 border-b-2 border-blue-600 pb-1 mr-2 font-medium"
-            : "text-gray-700 hover:text-blue-500 transition mr-2 font-medium"
-        }>Apps</NavLink>
-      <NavLink to='/installed apps' className={({ isActive }) =>
+            ? "text-blue-600 border-b-2 border-blue-600 pb-1 mr-3 font-medium"
+            : "text-gray-700 hover:text-blue-500 transition mr-3 font-medium"
+        }><div className='flex items-center'>  <LayoutGrid className='w-4 h-4 mr-1' /> Apps</div></NavLink>
+      <NavLink to='/installed apps' onClick={()=>setLoading(true)} className={({ isActive }) =>
           isActive
-            ? "text-blue-600 border-b-2 border-blue-600 pb-1 mr-2 font-medium"
-            : "text-gray-700 hover:text-blue-500 transition mr-2 font-medium"
-        }>Installation</NavLink>
+            ? "text-blue-600 border-b-2 border-blue-600 pb-1 mr-3 font-medium"
+            : "text-gray-700 hover:text-blue-500 transition mr-3 font-medium"
+        }><div className='flex items-center'><CloudDownload className='w-4 h-4 mr-1' /> Installation</div></NavLink>
       </ul>
     </div>
-    <Link to='/' className='flex gap-[4px] items-center'>
-        <img src='src/assets/All images/logo.png' alt="" className='h-10'/>
+    <Link to='/' onClick={()=>setLoading(true)} className='flex gap-[4px] items-center'>
+        <img src='https://i.ibb.co.com/9mZFBrvR/logo.png' alt="" className='h-10'/>
         <p  className=" text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold ">HERO.IO</p>
     </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <NavLink to='/' className={({ isActive }) =>
+      <NavLink to='/' onClick={()=>setLoading(true)} className={({ isActive }) =>
           isActive
-            ? "text-blue-600 border-b-2 border-blue-600 pb-1 mr-2 font-medium"
-            : "text-gray-700 hover:text-blue-500 transition mr-2 font-medium"
-        }>Home</NavLink>
-      <NavLink to='/apps' className={({ isActive }) =>
+            ? "text-blue-600 border-b-2 border-blue-600 pb-1 mr-3 font-medium"
+            : "text-gray-700 hover:text-blue-500 transition mr-3 font-medium"
+        }><div className='flex items-center'> <House className="w-4 h-4 mr-1" /> Home</div></NavLink>
+      <NavLink to='/apps' onClick={()=>setLoading(true)} className={({ isActive }) =>
           isActive
-            ? "text-blue-600 border-b-2 border-blue-600 pb-1 mr-2 font-medium"
-            : "text-gray-700 hover:text-blue-500 transition mr-2 font-medium"
-        }>Apps</NavLink>
-      <NavLink to='/installed apps' className={({ isActive }) =>
+            ? "text-blue-600 border-b-2 border-blue-600 pb-1 mr-3 font-medium"
+            : "text-gray-700 hover:text-blue-500 transition mr-3 font-medium"
+        }><div className='flex items-center'>  <LayoutGrid className='w-4 h-4 mr-1' /> Apps</div></NavLink>
+      <NavLink to='/installed apps' onClick={()=>setLoading(true)} className={({ isActive }) =>
           isActive
-            ? "text-blue-600 border-b-2 border-blue-600 pb-1 mr-2 font-medium"
-            : "text-gray-700 hover:text-blue-500 transition mr-2 font-medium"
-        }>Installation</NavLink>
+            ? "text-blue-600 border-b-2 border-blue-600 pb-1 mr-3 font-medium"
+            : "text-gray-700 hover:text-blue-500 transition mr-3 font-medium"
+        }><div className='flex items-center'>  <CloudDownload className='w-4 h-4 mr-1' /> Installation</div></NavLink>
     </ul>
   </div>
   <div className="navbar-end">

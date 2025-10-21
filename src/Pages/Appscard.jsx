@@ -1,9 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link, useOutletContext } from 'react-router';
 const Appscard = ({app}) => {
+  const{setLoading}=useOutletContext();
     return (
         <>
-        <Link to={`/appdetails/${app.id}`}>
+        <Link onClick={()=>setLoading(true)} to={`/appdetails/${app.id}`}>
         <div className="card bg-base-100 shadow-sm hover:scale-103 transition ease-in-out">
   <figure>
     <img
