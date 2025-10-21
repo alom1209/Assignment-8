@@ -24,14 +24,14 @@ const Home = () => {
       <p className="py-6 text-[#627382]">
         At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.
       </p>
-     <div className=''>
+     <div className='flex flex-col md:flex-row items-center justify-around gap-2'>
         <a href="https://play.google.com/store/games?hl=en"  target="_blank"
-    rel="noopener noreferrer"   className='btn border-4 p-5 mr-2'>
+    rel="noopener noreferrer"   className='btn border-4 p-5 md:mr-2'>
             <img src="https://i.ibb.co.com/YFM8n4Ln/fi-16076057.png" alt="" />
             <p className='font-semibold text-[20px]'>Play Store</p>
             </a>
         <a href="https://www.apple.com/app-store/"  target="_blank"
-    rel="noopener noreferrer"   className='btn border-4 p-5 ml-1'>
+    rel="noopener noreferrer"   className='btn border-4 p-5 md:ml-1'>
             <img src="https://i.ibb.co.com/wZnVqBFB/Group-2.png" alt="" />
             <p className='font-semibold text-[20px]'>App Store</p>
             </a>
