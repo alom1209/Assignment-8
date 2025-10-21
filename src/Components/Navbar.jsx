@@ -23,7 +23,7 @@ const Navbar = ({setLoading}) => {
             ? "text-blue-600 border-b-2 border-blue-600 pb-1 mr-3 font-medium"
             : "text-gray-700 hover:text-blue-500 transition mr-3 font-medium"
         }><div className='flex items-center'>  <LayoutGrid className='w-4 h-4 mr-1' /> Apps</div></NavLink>
-      <NavLink to='/installed apps' onClick={()=>setLoading(true)} className={({ isActive }) =>
+      <NavLink to='/installed-apps' onClick={()=>setLoading(true)} className={({ isActive }) =>
           isActive
             ? "text-blue-600 border-b-2 border-blue-600 pb-1 mr-3 font-medium"
             : "text-gray-700 hover:text-blue-500 transition mr-3 font-medium"
@@ -47,7 +47,7 @@ const Navbar = ({setLoading}) => {
             ? "text-blue-600 border-b-2 border-blue-600 pb-1 mr-3 font-medium"
             : "text-gray-700 hover:text-blue-500 transition mr-3 font-medium"
         }><div className='flex items-center'>  <LayoutGrid className='w-4 h-4 mr-1' /> Apps</div></NavLink>
-      <NavLink to='/installed apps' onClick={()=>setLoading(true)} className={({ isActive }) =>
+      <NavLink to='/installed-apps' onClick={()=>setLoading(true)} className={({ isActive }) =>
           isActive
             ? "text-blue-600 border-b-2 border-blue-600 pb-1 mr-3 font-medium"
             : "text-gray-700 hover:text-blue-500 transition mr-3 font-medium"

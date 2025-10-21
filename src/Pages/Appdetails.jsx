@@ -23,7 +23,7 @@ const Appdetails = () => {
     if (!Array.isArray(apps)) return <p className="text-center py-10">No apps found</p>;
     const app = apps.find(p => p.id === Number(id));
     if (!app) {
-  navigate("/appnotfound");
+  navigate("/app-not-found");
   return null;
 }
     const{image,title,companyName,description,size,reviews,ratingAvg,downloads,ratings}=app;

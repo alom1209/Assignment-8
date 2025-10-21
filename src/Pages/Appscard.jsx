@@ -4,7 +4,7 @@ const Appscard = ({app}) => {
   const{setLoading}=useOutletContext();
     return (
         <>
-        <Link onClick={()=>setLoading(true)} to={`/appdetails/${app.id}`}>
+        <Link onClick={()=>setLoading(true)} to={`/app-details/${app.id}`}>
         <div className="card bg-base-100 shadow-sm hover:scale-103 transition ease-in-out">
   <figure>
     <img

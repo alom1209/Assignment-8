@@ -26,16 +26,16 @@ const router = createBrowserRouter([
         Component:Allapps,
       },
       {
-        path:'/appdetails/:id',
+        path:'/app-details/:id',
           Component:Appdetails,
           errorElement:<Apppageerror></Apppageerror>,
       },
       {
-        path:'/installed apps',
+        path:'/installed-apps',
         Component:Installed,
       },
       {
-        path:'/appnotfound',
+        path:'/app-not-found',
         Component:Apppageerror,
       }
       
