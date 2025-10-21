@@ -78,9 +78,9 @@ const Installed = () => {
                                 <img src="https://i.ibb.co.com/3YTjS6cT/icon-downloads.png" alt="" className='h-5 '/>
                                 <p className='font-medium text-[16px] text-[#00D390]'>{a.downloads}</p>
                             </div>
-                            <div  className='flex items-center gap-1 hidden md:block lg:block'>
-                                <img src="https://i.ibb.co.com/Kz78s7zv/icon-ratings.png" alt="" className='h-5'/>
-                                <p className='font-medium text-[16px] text-[#00D390] '>{a.ratingAvg}</p>
+                            <div  className='flex items-center gap-1 '>
+                                <img src="https://i.ibb.co.com/Kz78s7zv/icon-ratings.png" alt="" className='h-5 hidden md:block'/>
+                                <p className='font-medium text-[16px] text-[#00D390] hidden md:block'>{a.ratingAvg}</p>
                             </div>
                             <div>
                                 <p className='font-medium text-[16px] text-[#00D390] hidden md:block lg:block'>{a.size}MB</p>
